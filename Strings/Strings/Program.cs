@@ -9,24 +9,24 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            string myString = "Hello Batman";
-            string mickey = "Hello Mickey Mouse";
+            //string myString = "Hello Batman";
+            //string mickey = "Hello Mickey Mouse";
 
-            string result = myString + mickey;
-            Stopwatch stopWatch1 = new Stopwatch();
-            stopWatch1.Start();
+            //string result = myString + mickey;
+            //Stopwatch stopWatch1 = new Stopwatch();
+            //stopWatch1.Start();
 
-            for (int i = 0; i < 10000; i++)
-            {
-                //Console.WriteLine(result);
-                result += i; //result = result+i;
-            }
-            stopWatch1.Stop();
+            //for (int i = 0; i < 10000; i++)
+            //{
+            //    //Console.WriteLine(result);
+            //    result += i; //result = result+i;
+            //}
+            //stopWatch1.Stop();
 
-            Console.WriteLine($"With string;{stopWatch1.Elapsed}");
+            //Console.WriteLine($"With string;{stopWatch1.Elapsed}");
 
-            Stopwatch stopWatch2 = new Stopwatch();
-            stopWatch2.Start();
+            //Stopwatch stopWatch2 = new Stopwatch();
+            //stopWatch2.Start();
             StringBuilder builder = new StringBuilder();
             builder.Append(result);
             
