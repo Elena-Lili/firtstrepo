@@ -25,10 +25,10 @@ namespace Strings
 
             //Console.WriteLine($"With string;{stopWatch1.Elapsed}");
 
-            //Stopwatch stopWatch2 = new Stopwatch();
+            Stopwatch stopWatch2 = new Stopwatch();
             //stopWatch2.Start();
             StringBuilder builder = new StringBuilder();
-            builder.Append(result);
+            //builder.Append(result);
             
             //for (int i = 0; i < 10000; i++)
             //{
