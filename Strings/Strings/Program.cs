@@ -20,26 +20,20 @@ namespace Strings
 
             }
            string result = myString + mickey;
-           Stopwatch stopWatch1 = new Stopwatch();
-           stopWatch1.Start();
-
-
-
+          // Stopwatch stopWatch1 = new Stopwatch();
+          // stopWatch1.Start();
 
             for (int i = 0; i < 1000; i++)
             {
                 result += i; //result = result+i;
             }
-            stopWatch1.Stop();
+           // stopWatch1.Stop();
             //Console.WriteLine(result);
             //Console.WriteLine($"With string;{stopWatch1.Elapsed}");
 
             Stopwatch stopWatch2 = new Stopwatch();
-            stopWatch2.Start();
+           // stopWatch2.Start();
             StringBuilder builder = new StringBuilder();
-
-
-
 
             builder.Append(result);
 
@@ -49,8 +43,8 @@ namespace Strings
                 builder.Append(i);
             //Console.WriteLine(builder);
             }
-           stopWatch2.Stop();
-            Console.WriteLine($"With stringBuilder;{stopWatch2.Elapsed}");
+         //  stopWatch2.Stop();
+          //  Console.WriteLine($"With stringBuilder;{stopWatch2.Elapsed}");
 
             //    Console.WriteLine(myString.Length); //afiseaza 12
             //    Console.WriteLine(myString[0]); //afiseaza H
