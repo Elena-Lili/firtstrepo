@@ -23,6 +23,9 @@ namespace Strings
            Stopwatch stopWatch1 = new Stopwatch();
            stopWatch1.Start();
 
+
+
+
             for (int i = 0; i < 1000; i++)
             {
                 result += i; //result = result+i;
@@ -35,11 +38,15 @@ namespace Strings
             stopWatch2.Start();
             StringBuilder builder = new StringBuilder();
 
+
+
+
             builder.Append(result);
 
             for (int i = 0; i < 1000; i++)
             {
-             builder.Append(i);
+           
+                builder.Append(i);
             //Console.WriteLine(builder);
             }
            stopWatch2.Stop();
